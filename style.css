@@ -1,0 +1,134 @@
+.container{
+  margin-left: 25%;
+  border: 4px solid green;
+  width: 100vh;
+  max-width:120vh;
+  max-height: 2000vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  box-shadow: 10px 5px 5px gray;
+
+}
+.top-section{
+  flex: 2;
+  border: 2px solid green;
+  background-color:  		#337ab7 ;
+
+  
+}
+.mid-section{
+  flex: 1;
+  background-color: rgb(161, 217, 161);
+  display: flex;
+}
+.bottom-section{
+  flex: 7.5;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+/* top section */
+.intro-div{
+  width: 30vh;
+  text-align: center;
+  margin: auto;
+  margin-top: 7%;
+  line-height: 15px;
+  color: rgb(161, 217, 161);
+
+}
+.intro{
+  font-size: 38px;
+  font-weight: bold;
+}
+.role{
+font-weight:normal;
+}
+
+/* MID SECTION */
+.left-sec{
+flex: 1;
+display: block;
+margin-left: 15px;
+}
+.middle-sec{
+  flex: 1;
+
+}
+.right-sec{
+  flex: 1;
+}
+.ans{
+  color: rgb(65, 61, 61);
+ 
+}
+
+.linked{
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.linkedIn-link{
+margin-top: 35px;
+padding-left: 5px;
+}
+.address{
+  margin-top: -30px;
+}
+
+/* BOTTOM SECTION */
+
+.upper-section{
+ display: flex;
+ flex: 1;
+}
+.lower-section{
+  display: flex;
+  flex: 3;
+}
+.profile-pic{
+flex: 1;
+
+
+
+
+}
+.education{
+  flex: 1;
+}
+
+.details-sec-1{
+  flex: 1;
+  
+}
+#work-exp{
+  padding-left: 10px;
+}
+
+.details-sec-2{
+  flex: 1;
+}
+.pic{
+  width: 300px;
+  margin-left: 50px;
+}
+
+.heading{
+  background-color:  rgb(161, 217, 161);;
+  text-align: center;
+  color: rgb(65, 61, 61);
+  font-weight: bold;
+  height: 45px;
+}
+
+.heading-txt{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.details{
+  line-height: 25px;
+}
